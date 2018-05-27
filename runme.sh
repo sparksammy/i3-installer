@@ -10,6 +10,8 @@ cp gtk-3.0 -r ~/.config/gtk-3.0
 cp menus -r ~/.config/menus
 cp compton -r ~/.config/compton
 cp xfce-perchannel-xml -r ~/.config/xfce-perchannel-xml
+sudo cp sparksammy-logout -r /bin/sparksammy-logout
+sudo chmod 777  /bin/sparksammy-logout
 sudo mkdir /wallpapers
 sudo cp -r wallpapers /wallpapers
 echo Done!
